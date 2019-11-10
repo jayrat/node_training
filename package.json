@@ -4,11 +4,20 @@
 	"description": "",
 	"main": "request.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"eslint": "eslint"
+	},
+	"repository": {
+		"git": "https://github.com/jayrat/node_training.git"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"devDependencies": {},
+	"devDependencies": {
+		"eslint": "^6.6.0",
+		"eslint-config-node": "^4.0.0",
+		"eslint-plugin-prettier": "^3.1.1",
+		"prettier": "^1.19.1"
+	},
 	"dependencies": {}
 }
